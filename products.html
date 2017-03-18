@@ -2,11 +2,15 @@
 <html lang=en>
 
 <head>
-    <meta charset=utf-8>
-    <title>Welcome to Book Value</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+  <meta charset=utf-8>
+  <title>Welcome to Book Value</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+
+  <script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="scripts/main.js"></script>
+
 </head>
 
 <body>
@@ -37,7 +41,7 @@
 
         <nav class="nav-column-navigation">
           <ul class="nav">
-            <li><a href="index.html">INDEX</a></li>
+            <li><a href="index.html">HOME</a></li>
             <li><a href="products.html">PRODUCTS</a></li>
             <li><a href="gallery.html">GALLERY</a></li>
             <li><a href="aboutus.html">ABOUT US</a></li>
@@ -48,7 +52,10 @@
     </div>
 
     <div id="main-container" class="centered-container">
-
+      <ul class="breadcrumb">
+        <li><a href="index.html">BOOK VALUE</a></li>
+        <li>Products</li>
+      </ul>
       <aside id="categories">
         <ul class="categories">
           <li><a href="#">CATEGORIES</a></li>
@@ -72,9 +79,7 @@
       <main id="main-content">
 
         <div id="popular-products">
-          <label id="popular-products-label">POPULAR</label>
-          <hr/>
-
+          
           <div id="popular-products-controls">
             <div id="popular-products-controls-display">
               <span style="float:none;">DISPLAY</span>
@@ -100,41 +105,41 @@
             <div class="cssTable">
               <div class="cssTableRow">
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover01.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover01.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">The Great Gatsby</a>
                   </p>
-                  <img src="pictures/5stars.png" class="stars-rating" alt="">
+                  <img src="pictures/5stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 17.50
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover02.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover02.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">Pride and Prejudice</a>
                   </p>
-                  <img src="pictures/3stars.png" class="stars-rating" alt="">
+                  <img src="pictures/3stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 12.39
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover03.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover03.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">The Silence of the Lambs</a>
                   </p>
-                  <img src="pictures/4stars.png" class="stars-rating" alt="">
+                  <img src="pictures/4stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 11.73
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover04.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover04.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">The Kite Runner</a>
                   </p>
-                  <img src="pictures/4stars.png" class="stars-rating" alt="">
+                  <img src="pictures/4stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 9.27
                   </p>
@@ -142,41 +147,41 @@
               </div>
               <div class="cssTableRow">
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover06.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover06.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">The Boy in the Stripped Pyjamas</a>
                   </p>
-                  <img src="pictures/1stars.png" class="stars-rating" alt="">
+                  <img src="pictures/1stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 4.20
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover07.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover07.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">When Breath Becomes Air</a>
                   </p>
-                  <img src="pictures/4stars.png" class="stars-rating" alt="">
+                  <img src="pictures/4stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 5.79
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover08.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover08.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">Game of Thrones</a>
                   </p>
-                  <img src="pictures/3stars.png" class="stars-rating" alt="">
+                  <img src="pictures/3stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 9.11
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover09.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover09.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">Charlie and The Chocolate Factory</a>
                   </p>
-                  <img src="pictures/3stars.png" class="stars-rating" alt="">
+                  <img src="pictures/3stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 17.18
                   </p>
@@ -184,41 +189,41 @@
               </div>
               <div class="cssTableRow">
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover11.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover11.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">Lord of The Rings: The Fellowship of the Ring</a>
                   </p>
-                  <img src="pictures/2stars.png" class="stars-rating" alt="">
+                  <img src="pictures/2stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 19.23
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover12.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover12.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">Life of Pi</a>
                   </p>
-                  <img src="pictures/2stars.png" class="stars-rating" alt="">
+                  <img src="pictures/2stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 18.37
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover13.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover13.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">Fantastic Beasts and Where to Find Them</a>
                   </p>
-                  <img src="pictures/4stars.png" class="stars-rating" alt="">
+                  <img src="pictures/4stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 22.11
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover14.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover14.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">Lord of the Flies</a>
                   </p>
-                  <img src="pictures/5stars.png" class="stars-rating" alt="">
+                  <img src="pictures/5stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 16.01
                   </p>
@@ -226,41 +231,41 @@
               </div>
               <div class="cssTableRow">
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover16.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover16.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">To Kill a Mockingbird</a>
                   </p>
-                  <img src="pictures/1stars.png" class="stars-rating" alt="">
+                  <img src="pictures/1stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 7.99
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover17.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover17.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">The Road to Somewhere</a>
                   </p>
-                  <img src="pictures/1stars.png" class="stars-rating" alt="">
+                  <img src="pictures/1stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 9.99
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover18.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover18.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">The Girl Before</a>
                   </p>
-                  <img src="pictures/3stars.png" class="stars-rating" alt="">
+                  <img src="pictures/3stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 6.66
                   </p>
                 </div>
                 <div class="cssTableCell">
-                  <img src="pictures/covers/bookcover19.jpg" class="book-cover-image" alt="">
+                  <img src="pictures/covers/bookcover19.jpg" class="book-cover-image" alt="image description">
                   <p class="book-title">
                     <a href="#">The Godfather</a>
                   </p>
-                  <img src="pictures/5stars.png" class="stars-rating" alt="">
+                  <img src="pictures/5stars.png" class="stars-rating" alt="image description">
                   <p class="book-price">
                     € 1.71
                   </p>
